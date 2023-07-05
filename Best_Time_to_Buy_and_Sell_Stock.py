@@ -7,6 +7,6 @@ class Solution:
             small = prices[i]
             if small > large:
                 large = small
-            else:
+            else: 
                 maxi = max(maxi, large-small)
         return maxi
