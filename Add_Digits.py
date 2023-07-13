@@ -7,4 +7,3 @@ class Solution:
                 l += int(i)
             num = str(l)
         return int(num)
-
